@@ -1,0 +1,37 @@
+{
+	"name": "SAMPLE_NAME",
+
+	"version": "0.1",
+
+	"manifest_version" : 2,
+
+	"description": "SAMPLE_DESCRIPTION",
+
+	"background" : {
+		"scripts" : ["scripts/background.js"]
+	},
+
+	"browser_action" :
+	{
+		"default_icon": {
+			"19": "icons/19.png",
+			"38": "icons/38.png"
+		},
+		"default_title" : "playlist",
+		"default_popup": "fragments/popup.html"
+	},
+
+	"icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+
+	"permissions":[
+		"background",
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+  "options_page" : "settings/index.html"
+}
