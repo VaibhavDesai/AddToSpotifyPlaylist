@@ -60,7 +60,6 @@ function getAccessToken(){
             localStorage.setItem('refresh_token', responseText['refresh_token']);
             localStorage.setItem('access_token_expires_in', Date.now() +(parseInt(responseText['expires_in'])*1000) )
             console.log('Access token:',  responseText);
-            updateUI();
             getUserDetails();
             getPlaylists();
         }
@@ -95,8 +94,6 @@ function getAuthorizationCode() {
             localStorage.setItem('AuthorizationCode', code);
             console.log('AuthorizationCode:', code);
             getAccessToken();
-
-
         }
     });
 }

@@ -1,48 +1,49 @@
 <!doctype html>
-<style type="text/css">
-    #mainPopup {
-        padding: 10px;
-        height: 200px;
-        width: 400px;
-        font-family: Helvetica, Ubuntu, Arial, sans-serif;
-    }
-    h1 {
-        font-size: 2em;
-    }
-</style>
 
-<div id="mainPopup">
-    <h1>Hello Skeleton Extension!</h1>
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
+<div class="mainPopup">
 
-    <div>
-        <div class="panel" id="spotify_helper_login" style="display: none">
-            <a href="#" class="medium success button" id="spotify_helper_login_btn">Authorize</a><br/>
-        </div>
-        <div class="panel" id="spotify_helper_logout" style="display: none">
-            <a href="#" class="medium success button" id="spotify_helper_logout_btn">Log out</a><br/>
+    <div class="login">
+        <h1 style="text-align:center;font-size:350%;"> Add songs to Spotify Playlist</h1>
+        <div class="login__form" id="spotify_helper_login">
+            <button type="button" class="login__submit" id="spotify_helper_login_btn">Sign in</button>
         </div>
     </div>
 
 
 
-    <div id="spotify_helper_search" style="display: none">
-        <form id="spotify_search_form">
-            <input type="text" id="query" value="" class="form-control" />
-            <input type="submit" id="search" class="btn btn-primary" value="Search" />
-        </form>
+    <div class="app">
 
-        <div id="results_div" style="display: none"></div>
+        <div id="spotify_helper_search" >
 
-        <div id="playlist_box" style="display: none">
-            <p>Add to Playlist</p>
-            <ul id="playlist_holder">
-            </ul>
+            <div id="spotify_search_form" class="search-form">
+                <input type="text" id="query" class="search-bar" placeholder="Search.." >
+                <button id="search" type="submit" class="search-button" style="padding:5%"><i class="fa fa-search"></i></button>
+            </div>
+
+            <div id="results_div" class="search_results_container" style="display: none"></div>
+
+            <div id="playlist_box" style="display: none; overflow:scroll" class="playlist_box" >
+                <ul id="playlist_holder" class="playlist_holder">
+                </ul>
+            </div>
         </div>
 
+        <div class="app__logout" id="spotify_helper_logout">
+            <svg class="app__logout-icon svg-icon" id="spotify_helper_logout_btn" viewBox="0 0 20 20">
+                <path d="M6,3 a8,8 0 1,0 8,0 M10,0 10,12"/>
+            </svg>
+        </div>
     </div>
+
+
 
 </div>
+
 
 <script src="../lib/jquery-2.1.1.min.js"></script>
 <script src="js/popup.js"></script>

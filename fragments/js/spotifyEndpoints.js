@@ -19,14 +19,13 @@ function searchTrack(query) {
         success: function(responseText) {
             console.log(responseText);
             track_0 = responseText['tracks']['items'][0];
-            document.getElementById('results_div').innerHTML="<h4>"+track_0['name']+"</h4>";
-            $(results_div).show()
+            document.getElementById('results_div').innerHTML="<h1>"+track_0['name']+"</h1>";
+            $(results_div).show();
             localStorage.setItem("track_uri", track_0['uri']);
             updateUIWithPlaylists();
         },
 
         error: function (response) {
-            console.log("here is an errsdador", response);
         }
 
     });
@@ -93,6 +92,7 @@ function getPlaylists() {
             });
 
             localStorage.setItem('playlists', JSON.stringify(playlists));
+            console.log(playlists);
         },
 
         error: function (response) {
@@ -129,8 +129,7 @@ function addToPlaylist(playlist_id) {
         data:JSON.stringify({'uris':[localStorage.getItem('track_uri')]}),
 
         success: function(responseText) {
-            console.log(responseText);
-            alert(responseText);
+            alert("Song added to your playlist");
         }
 
     });

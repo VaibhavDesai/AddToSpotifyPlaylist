@@ -1,0 +1,328 @@
+/* Style the search box inside the navigation bar */
+
+
+.mainPopup {
+    width: 100%;
+    text-align: center;
+}
+
+.app {
+    display: inline-block;
+    margin: 2px;
+}
+
+
+.spotify_helper_search {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.search-bar{
+    width: 70%;
+    padding: 5%;
+}
+.search-form{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.spotify_helper_search .search-container {
+    padding: 4px 10px;
+    font-size: 16px;
+    float: right;
+}
+
+.spotify_helper_search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.spotify_helper_search .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+}
+html, body {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+.playlist_box {
+    width: 100%;
+    text-align: center;
+}
+
+.playlist_holder {
+    width: 100%;
+    text-align: center;
+}
+
+ui{
+    display: -webkit-box;
+}
+.playlistBtn {
+    display: inline-block;
+}
+
+.spotify_helper_search {
+    width: 100%;
+    text-align: center;
+}
+
+.login__form {
+    width: 100%;
+    text-align: center;
+}
+
+.login__submit {
+    display: inline-block;
+}
+
+svg {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+}
+
+.mainPopup {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+}
+
+.svg-icon {
+    cursor: pointer;
+}
+.svg-icon path {
+    stroke: rgba(255, 255, 255, 0.9);
+    fill: none;
+    stroke-width: 1;
+}
+
+.login {
+    position: relative;
+    height: 100%;
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.login.inactive {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.login__submit {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    margin: 5rem 0 2.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: #639752;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+    transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+.login__submit:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: 2px dotted #fff;
+    border-radius: 50%;
+    border-left: none;
+    border-bottom: none;
+    -webkit-transition: opacity 0.1s 0.4s;
+    transition: opacity 0.1s 0.4s;
+    opacity: 0;
+}
+.login__submit.processing {
+    width: 4rem;
+    font-size: 0;
+    bottom: 50%;
+
+}
+.login__submit.processing:after {
+    opacity: 1;
+    -webkit-animation: rotate 0.5s 0.4s infinite linear;
+    animation: rotate 0.5s 0.4s infinite linear;
+}
+.login__submit.success {
+    -webkit-transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+    transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+    transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s;
+    transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+    -webkit-transform: scale(100);
+    transform: scale(100);
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.login__submit.success:after {
+    -webkit-transition: opacity 0.1s 0s;
+    transition: opacity 0.1s 0s;
+    opacity: 0;
+    -webkit-animation: none;
+    animation: none;
+}
+.login__signup {
+    font-size: 1.2rem;
+    color: #ABA8AE;
+}
+.login__signup a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: none;
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.68, -0.45, 0.465, 1.25);
+    transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.68, -0.45, 0.465, 1.25);
+    transition: opacity 0.1s, transform 0.3s cubic-bezier(0.68, -0.45, 0.465, 1.25);
+    transition: opacity 0.1s, transform 0.3s cubic-bezier(0.68, -0.45, 0.465, 1.25), -webkit-transform 0.3s cubic-bezier(0.68, -0.45, 0.465, 1.25);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.app.active {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.app.active .app__logout {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.app__logout {
+    position: absolute;
+    bottom: 3.3rem;
+    right: 3.3rem;
+    width: 4.6rem;
+    height: 4.6rem;
+    margin-right: -2.3rem;
+    margin-bottom: -2.3rem;
+    background: #639752;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: bottom 0.4s 0.1s, right 0.4s 0.1s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
+    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
+    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, transform 0.4s 0.4s, opacity 0.1s 0.7s, background-color 0.1s 0.7s;
+    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, transform 0.4s 0.4s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.app__logout.clicked {
+    bottom: 50%;
+    right: 50%;
+    -webkit-transform: scale(30) !important;
+    transform: scale(30) !important;
+    opacity: 0.9;
+}
+.app__logout.clicked svg {
+    opacity: 0;
+}
+.app__logout-icon {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+}
+.app__logout-icon path {
+    stroke-width: 4px;
+    stroke-dasharray: 64.36235046386719;
+    stroke-dashoffset: 64.36235046386719;
+    -webkit-animation: animatePath 0.5s 0.5s forwards;
+    animation: animatePath 0.5s 0.5s forwards;
+}
+
+.ripple {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin-left: -7.5rem;
+    margin-top: -7.5rem;
+    background: rgba(255, 248, 247, 0.92);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: animRipple 0.4s;
+    animation: animRipple 0.4s;
+    border-radius: 50%;
+}
+
+@-webkit-keyframes animRipple {
+    to {
+        -webkit-transform: scale(3.5);
+        transform: scale(3.5);
+        opacity: 0;
+    }
+}
+
+@keyframes animRipple {
+    to {
+        -webkit-transform: scale(3.5);
+        transform: scale(3.5);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes animatePath {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animatePath {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

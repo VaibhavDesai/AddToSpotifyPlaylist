@@ -1,11 +1,11 @@
 {
-	"name": "SAMPLE_NAME",
+	"name": "AddToSpotifyPlaylist",
 
 	"version": "0.1",
 
 	"manifest_version" : 2,
 
-	"description": "SAMPLE_DESCRIPTION",
+	"description": "This extension allows users to search songs and add them to the Spotify playlist.",
 
 	"background" : {
 		"scripts" : ["scripts/background.js"]
@@ -14,17 +14,17 @@
 	"browser_action" :
 	{
 		"default_icon": {
-			"19": "icons/19.png",
-			"38": "icons/38.png"
+			"19": "icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist29x29.png",
+			"38": "icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist36x36.png"
 		},
 		"default_title" : "playlist",
 		"default_popup": "fragments/popup.html"
 	},
 
 	"icons": {
-		"16": "icons/16.png",
-		"48": "icons/48.png",
-		"128": "icons/128.png"
+		"16": "icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist29x29.png",
+		"48": "icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist48x48.png",
+		"128": "icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist144x144.png"
 	},
 
 	"permissions":[
