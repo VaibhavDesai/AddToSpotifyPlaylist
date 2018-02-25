@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="accounts" ng-csp>
+<head>
+    <meta charset="utf-8">
+    <title ng-bind="(title && (title | localize) + ' - ') + 'Spotify'">Spotify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <base href="/">
+    <link href="https://d2d1dxiu3v1f2i.cloudfront.net/f7f9931/css/index.css" media="screen" rel="stylesheet">
+
+    <script async defer src="https://www.google.com/recaptcha/api.js"></script>
+    <script async defer src="https://d2d1dxiu3v1f2i.cloudfront.net/f7f9931/js/index.js" sp-bootstrap></script>
+    <meta ng-non-bindable sp-bootstrap-data='{"user":{"displayName":"Vaibhav Desai","smallImageUrl":"https://scontent.xx.fbcdn.net/v/t1.0-1/c8.0.50.50/p50x50/20525519_1566127746742762_3390921591848050648_n.jpg?oh\u003d1777428608f9d915a65beb5bc32379d3\u0026oe\u003d5B18F5B2","largeImageUrl":"https://scontent.xx.fbcdn.net/v/t1.0-1/c33.0.200.200/p200x200/20525519_1566127746742762_3390921591848050648_n.jpg?oh\u003d8d65df5654bc52510fa8bb820d217449\u0026oe\u003d5B06FFA0"},"client":{"name":"Testing","description":"Testing","scope":["playlist-read-private","playlist-modify-public","playlist-modify-private","user-read-email"],"authorizedScope":[],"clientId":"14cb090ba71b43d0b93e3f22d67eb211"},"license":{"showEula":false},"country":"US","useCaptcha":false,"locales":["en_US","en"],"BON":["0","0",-982117338]}'>
+</head>
+<body ng-view></body>
+</html>

@@ -1,1 +1,0 @@
-var APP_KEY = 'de82df11441248d5bef3f00e9c1a9689';
