@@ -19,7 +19,8 @@ function searchTrack(query) {
         success: function(responseText) {
             console.log(responseText);
             track_0 = responseText['tracks']['items'][0];
-            document.getElementById('results_div').innerHTML="<h1>"+track_0['name']+"</h1>";
+            artist = responseText['tracks']['items'][0]['artists'][0]['name'];
+            document.getElementById('results_div').innerHTML="<h1>"+track_0['name']+"-"+artist+"</h1>";
             $(results_div).show();
             localStorage.setItem("track_uri", track_0['uri']);
             updateUIWithPlaylists();
@@ -129,7 +130,7 @@ function addToPlaylist(playlist_id) {
         data:JSON.stringify({'uris':[localStorage.getItem('track_uri')]}),
 
         success: function(responseText) {
-            alert("Song added to your playlist");
+            //alert("Song added to your playlist");
         }
 
     });
