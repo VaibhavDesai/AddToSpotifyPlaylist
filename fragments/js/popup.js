@@ -33,6 +33,12 @@ function init() {
 
     }
 
+    $(document).on("click", ".search-button", function(evt) {
+        console.log("here in ");
+        evt.preventDefault();
+        searchTrack(document.getElementById('query').value);
+    });
+
 }
 
 function loadupScreen() {
@@ -42,12 +48,6 @@ function loadupScreen() {
     $app.addClass("active");
     $login.hide();
     $login.addClass("inactive");
-
-    $(document).on("click", ".search-button", function(evt) {
-        console.log("here in ");
-        evt.preventDefault();
-        searchTrack(document.getElementById('query').value);
-    });
 }
 
 function loginListener() {
