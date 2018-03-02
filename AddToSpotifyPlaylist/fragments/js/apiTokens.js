@@ -40,7 +40,7 @@ function getRefreshToken(callbackFunction) {
 }
 
 function getAccessToken(){
-
+    console.log("in get Access ");
     jQuery.ajax({
         type:'POST',
         url:token_url,
@@ -51,7 +51,7 @@ function getAccessToken(){
 
         data:{
             "grant_type": 'authorization_code',
-            "code":localStorage.getItem('AuthorizationCode'),
+            "code":localStorage.getItem('authorization_code'),
             "redirect_uri":redirect_uri
         },
 
@@ -69,31 +69,6 @@ function getAccessToken(){
 
 function getAuthorizationCode() {
 
-    var xhr;
-    var _orgAjax = jQuery.ajaxSettings.xhr;
-    jQuery.ajaxSettings.xhr = function () {
-        xhr = _orgAjax();
-        return xhr;
-    };
+    window.oauth2.start();
 
-    jQuery.ajax({
-
-        type:'GET',
-        url:authorize_url,
-        data:{
-            "client_id": client_id,
-            "response_type":"code",
-            "redirect_uri": redirect_uri,
-            "scope": scope
-        },
-
-        success: function(response) {
-
-            // Save it using the Chrome extension storage API.
-            var code = getParameterByName('code',xhr.responseURL);
-            localStorage.setItem('AuthorizationCode', code);
-            console.log('AuthorizationCode:', code);
-            getAccessToken();
-        }
-    });
 }

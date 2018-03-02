@@ -23,8 +23,10 @@ function init() {
     logoutListener();
     loginListener();
 
-    AuthorizationCode = localStorage.getItem("AuthorizationCode");
-    if (localStorage.getItem('AuthorizationCode') == null) {
+    AuthorizationCode = localStorage.getItem("authorization_code");
+    console.log("oauth code:", AuthorizationCode);
+    console.log("access token:", localStorage.getItem('access_token'));
+    if (localStorage.getItem('authorization_code') == null) {
         //console.log("AuthorizationCode is", AuthorizationCode);
 
     } else {
@@ -43,17 +45,20 @@ function init() {
 
 function loadupScreen() {
 
+    getAccessToken();
     $app.show();
     $app.css("top");
     $app.addClass("active");
     $login.hide();
     $login.addClass("inactive");
+
 }
 
 function loginListener() {
     $(document).on("click", ".login__submit", function(e) {
 
         getAuthorizationCode();
+
         if (animating) return;
         animating = true;
         var that = this;
@@ -81,6 +86,7 @@ function logoutListener() {
 
     $(document).on("click", ".app__logout", function(e) {
         localStorage.clear();
+        console.log(localStorage.getItem("authorization_code"));
         if (animating) return;
         $(".ripple").remove();
         animating = true;
@@ -98,6 +104,7 @@ function logoutListener() {
             $(that).removeClass("clicked");
         }, logoutPhase1);
     });
+
 
 }
 

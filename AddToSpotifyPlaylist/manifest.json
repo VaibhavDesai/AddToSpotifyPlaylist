@@ -9,7 +9,7 @@
 	"description": "This extension allows users to search songs and add them to the Spotify playlist.",
 
 	"background" : {
-		"scripts" : ["scripts/background.js"]
+		"page" : "background.html"
 	},
 
 	"browser_action" :
@@ -34,5 +34,16 @@
 		"http://*/*",
 		"https://*/*"
 	],
-  "options_page" : "settings/index.html"
+
+  "content_scripts":[{
+    "matches":["https://vaibhavdesai.github.io/*"],
+    "js":["lib/chrome-ex-auth/injection.js"],
+    "run_at":"document_start"
+  }],
+
+  "web_accessible_resources": [
+    "lib/*"
+  ],
+
+  "options_page" : "fragments/popup.html"
 }
