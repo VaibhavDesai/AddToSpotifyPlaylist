@@ -2,7 +2,7 @@
 	"name": "AddToSpotifyPlaylist",
 	"short_name":"ATSP",
 
-	"version": "0.1",
+	"version": "0.1.2",
 
 	"manifest_version" : 2,
 

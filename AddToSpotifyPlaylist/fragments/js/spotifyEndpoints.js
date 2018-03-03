@@ -130,7 +130,8 @@ function addToPlaylist(playlist_id) {
         data:JSON.stringify({'uris':[localStorage.getItem('track_uri')]}),
 
         success: function(responseText) {
-            //alert("Song added to your playlist");
+            console.log("added to the playlist playlist Id"+playlist_id);
+            updatePlaylistButton(playlist_id);
         }
 
     });
