@@ -3,6 +3,7 @@ var search = $("#spotify_helper_search");
 var playlist_box = $('#playlist_box');
 var results_div = $('#results_div');
 
+document.write('<script src="js/searchType.js" type="text/javascript"></script>');
 document.write('<script src="js/apiTokens.js" type="text/javascript"></script>');
 document.write('<script src="js/spotifyEndpoints.js" type="text/javascript"></script>');
 document.write('<script src="js/updateUI.js" type="text/javascript"></script>');

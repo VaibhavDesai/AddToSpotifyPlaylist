@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+body {
+    background: #2A2A34;
+}
+
+.radio-group {
+    width: inherit;
+    table-layout: auto;
+    border-spacing: 0;
+    padding: 10px;
+    border-collapse: separate;
+}
+
+.radio-group__label {
+    border-radius:20px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 2%;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    border: 1px solid #4F5167;
+    color: #4F5167;
+    cursor: pointer;
+}
+
+.radio-group__option:checked + label {
+    color: #389E29;
+}
+
+.radio-group__option {
+    display: none;
+}

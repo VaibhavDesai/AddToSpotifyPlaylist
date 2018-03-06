@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.h1{
+    color: #389E29;
+}
+
 .app {
     display: inline-block;
     margin: 2px;
@@ -22,10 +26,7 @@
     padding: 5%;
 }
 .search-form{
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
+    padding: 3%;
 }
 
 .spotify_helper_search .search-container {
