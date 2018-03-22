@@ -1,17 +1,21 @@
 <!doctype html>
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/search-form.css">
+    <link rel="stylesheet" href="css/results.css">
+    <link rel="stylesheet" href="css/searchFilter.css">
 </head>
 
 <body>
 
     <div class="mainPopup">
-
         <div class="login">
-            <h1 style="text-align:center;font-size:350%;color:honeydew;"> Add songs to Spotify Playlist</h1>
+            <h1 style="text-align:center;"> Add songs to Spotify Playlist</h1>
 
             <div class="login__form" id="spotify_helper_login">
                 <button type="button" class="login__submit" id="spotify_helper_login_btn">Sign in</button>
@@ -19,50 +23,45 @@
 
         </div>
 
-
-
         <div class="app">
 
-
-
-            <div id="spotify_helper_search" >
+            <div id="spotify_helper_search" class="spotify_helper_search">
 
                 <div id="spotify_search_form" class="search-form">
-                    <input type="text" id="query" class="search-bar" placeholder="Search.." >
-                    <button id="search" type="submit" class="search-button" style="padding:5%"><i class="fa fa-search"></i></button>
+                    <input type="search" id="query" class="search-bar" placeholder="Search.." >
+                    <button id="search" type="submit" class="search-button"><i class="fa fa-search"></i></button>
                 </div>
 
 
+                <!--<div class="radio-group">-->
 
-                <div class="radio-group">
+                    <!--<input id="Track" class="radio-group__option" type="radio" name="opt" checked="checked">-->
+                    <!--<label class="radio-group__label" for="Track">-->
+                        <!--Track-->
+                    <!--</label>-->
 
-                    <input id="Track" class="radio-group__option" type="radio" name="opt" checked="checked">
-                    <label class="radio-group__label" for="Track">
-                        Track
-                    </label>
+                    <!--<input id="Artist" class="radio-group__option" type="radio" name="opt">-->
+                    <!--<label class="radio-group__label" for="Artist">-->
+                        <!--Artist-->
+                    <!--</label>-->
 
-                    <input id="Artist" class="radio-group__option" type="radio" name="opt">
-                    <label class="radio-group__label" for="Artist">
-                        Artist
-                    </label>
+                    <!--<input id="Album" class="radio-group__option" type="radio" name="opt">-->
+                    <!--<label class="radio-group__label" for="Album">-->
+                        <!--Album-->
+                    <!--</label>-->
 
-                    <input id="Album" class="radio-group__option" type="radio" name="opt">
-                    <label class="radio-group__label" for="Album">
-                        Album
-                    </label>
+                    <!--<input id="Playlist" class="radio-group__option" type="radio" name="opt">-->
+                    <!--<label class="radio-group__label" for="Playlist">-->
+                        <!--Playlist-->
+                    <!--</label>-->
 
-                    <input id="Playlist" class="radio-group__option" type="radio" name="opt">
-                    <label class="radio-group__label" for="Playlist">
-                        Playlist
-                    </label>
-
-                </div>
+                <!--</div>-->
 
 
 
                 <div id="results_div" class="search_results_container" style="display: none"></div>
 
-                <div id="playlist_box" style="display: none; overflow:scroll" class="playlist_box">
+                <div id="playlist_box" style="display: none;" class="playlist_box">
                     <ul id="playlist_holder" class="playlist_holder">
                     </ul>
                 </div>
@@ -77,7 +76,6 @@
         </div>
 
     </div>
-
 </body>
 
 <script src="../lib/chrome-ex-auth/oauth2.js"></script>

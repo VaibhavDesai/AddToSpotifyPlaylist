@@ -1,0 +1,18 @@
+.playlist_box {
+    width: inherit;
+    padding-right: 10px;
+    height: 500px;
+}
+
+.playlist_holder {
+    position: inherit;
+    padding: 2%;
+    top: 0px;
+    width: inherit;
+    height: 500px;
+    overflow: auto;
+}
+
+h3{
+    text-align: -webkit-center;
+}

@@ -1,33 +1,67 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-body {
-    background: #2A2A34;
+html{
+    display: inline-flex;
+    width: 300px;
+    max-height: 500px;
+    user-select: none;
+    font-family: sans-serif;
 }
 
-.radio-group {
-    width: inherit;
-    table-layout: auto;
-    border-spacing: 0;
-    padding: 10px;
-    border-collapse: separate;
-}
-
-.radio-group__label {
-    border-radius:20px;
-    font-size: 10px;
-    padding: 5px;
-    margin: 2%;
-    vertical-align: middle;
-    text-align: center;
+body{
     position: relative;
-    border: 1px solid #4F5167;
-    color: #4F5167;
+    width: inherit;
+    max-height: inherit;
+    user-select: none;
+    font-family: sans-serif;
+    margin: 8px;
+}
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+ul{
+    -webkit-padding-start: 5%;
+}
+
+.mainPopup {
+    width: 100%;
+    text-align: center;
+}
+
+ui{
+    display: -webkit-box;
+    line-height: 300%;
+    padding: 1%;
+    width: inherit;
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+input[type=search], select {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.app__logout {
+    margin-right: 6%;
+    margin-bottom: 2%;
+    float: right;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #639752;
+    color: #fff;
+    border-radius: 50%;
     cursor: pointer;
-}
-
-.radio-group__option:checked + label {
-    color: #389E29;
-}
-
-.radio-group__option {
-    display: none;
+    -webkit-transition: bottom 0.4s 0.1s, right 0.4s 0.1s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
+    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
+    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, transform 0.4s 0.4s, opacity 0.1s 0.7s, background-color 0.1s 0.7s;
+    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, transform 0.4s 0.4s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
 }

@@ -1,0 +1,92 @@
+.login__form {
+    width: 100%;
+    text-align: center;
+}
+
+.login__submit {
+    display: inline-block;
+}
+
+
+.login {
+    position: relative;
+    height: 100%;
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.login.inactive {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.login__submit {
+    position: relative;
+    width: 80%;
+    height: 3rem;
+    margin: 5rem 0 2.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: #639752;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+    transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+.login__submit:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: 2px dotted #fff;
+    border-radius: 50%;
+    border-left: none;
+    border-bottom: none;
+    -webkit-transition: opacity 0.1s 0.4s;
+    transition: opacity 0.1s 0.4s;
+    opacity: 0;
+}
+.login__submit.processing {
+    width: 4rem;
+    font-size: 0;
+    bottom: 50%;
+
+}
+.login__submit.processing:after {
+    opacity: 1;
+    -webkit-animation: rotate 0.5s 0.4s infinite linear;
+    animation: rotate 0.5s 0.4s infinite linear;
+}
+.login__submit.success {
+    -webkit-transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+    transition: opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+    transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s;
+    transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s, -webkit-transform 0.3s 0.1s ease-out;
+    -webkit-transform: scale(100);
+    transform: scale(100);
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.login__submit.success:after {
+    -webkit-transition: opacity 0.1s 0s;
+    transition: opacity 0.1s 0s;
+    opacity: 0;
+    -webkit-animation: none;
+    animation: none;
+}
+.login__signup {
+    font-size: 1.2rem;
+    color: #ABA8AE;
+}
+.login__signup a {
+    color: #fff;
+    cursor: pointer;
+}

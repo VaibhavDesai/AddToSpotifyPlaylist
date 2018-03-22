@@ -2,14 +2,15 @@
 	"name": "AddToSpotifyPlaylist",
 	"short_name":"ATSP",
 
-	"version": "0.1.4",
+	"version": "0.1.5",
 
 	"manifest_version" : 2,
 
 	"description": "This extension allows users to search songs and add them to the Spotify playlist.",
 
 	"background" : {
-		"page" : "background.html"
+		"scripts": ["scripts/background.js"],
+		"persistent": false
 	},
 
 	"browser_action" :
@@ -35,11 +36,20 @@
 		"https://*/*"
 	],
 
-  "content_scripts":[{
-    "matches":["https://vaibhavdesai.github.io/?code=*"],
-    "js":["lib/chrome-ex-auth/injection.js"],
-    "run_at":"document_start"
-  }],
+  "content_scripts":[
+
+	  {
+		"matches":["https://vaibhavdesai.github.io/?code=*"],
+		"js":["lib/chrome-ex-auth/injection.js"],
+		"run_at":"document_start"
+	  },
+
+	  {
+		  "matches": ["https://*/*", "http://*/*"],
+		  "js":      ["scripts/content.js"],
+		  "run_at":"document_start"
+	  }
+  ],
 
   "web_accessible_resources": [
     "lib/*"

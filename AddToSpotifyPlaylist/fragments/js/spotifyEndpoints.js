@@ -20,7 +20,7 @@ function searchTrack(query) {
             console.log(responseText);
             track_0 = responseText['tracks']['items'][0];
             artist = responseText['tracks']['items'][0]['artists'][0]['name'];
-            document.getElementById('results_div').innerHTML="<h1>"+track_0['name']+"-"+artist+"</h1>";
+            document.getElementById('results_div').innerHTML="<h3>"+track_0['name']+"-"+artist+"</h3>";
             $(results_div).show();
             localStorage.setItem("track_uri", track_0['uri']);
             updateUIWithPlaylists();
