@@ -32,34 +32,32 @@
     background: #ccc;
 }
 
-/*.spotify_helper_search {*/
-    /*width: 100%;*/
-    /*text-align: center;*/
-/*}*/
-
-
 .search-form {
     padding: 3%;
-    margin-bottom: 3%;
+    height: 10%;
 }
 
 .search-button{
-    width: 10%;
-    margin-left: 3%;
+    width: 11%;
+    margin-left: 2%;
     padding:inherit;
     border-radius: 50%;
 
 }
 
 .search-bar{
-    width: 84%;
+    width: 70%;
     padding: inherit;
 }
 
 input[type=search], select {
-    padding: 12px 20px;
+    padding: 10px 5px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+.search_results_container{
+    height: 5%;
 }

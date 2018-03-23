@@ -3,19 +3,17 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/search-form.css">
     <link rel="stylesheet" href="css/results.css">
-    <link rel="stylesheet" href="css/searchFilter.css">
 </head>
 
 <body>
 
     <div class="mainPopup">
         <div class="login">
-            <h1 style="text-align:center;"> Add songs to Spotify Playlist</h1>
+            <h2 style="text-align:center;"> Add songs to Spotify Playlist</h2>
 
             <div class="login__form" id="spotify_helper_login">
                 <button type="button" class="login__submit" id="spotify_helper_login_btn">Sign in</button>
@@ -28,36 +26,13 @@
             <div id="spotify_helper_search" class="spotify_helper_search">
 
                 <div id="spotify_search_form" class="search-form">
+
                     <input type="search" id="query" class="search-bar" placeholder="Search.." >
                     <button id="search" type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                    <button id="spotify_helper_logout" type="submit" class="app__logout"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+
+
                 </div>
-
-
-                <!--<div class="radio-group">-->
-
-                    <!--<input id="Track" class="radio-group__option" type="radio" name="opt" checked="checked">-->
-                    <!--<label class="radio-group__label" for="Track">-->
-                        <!--Track-->
-                    <!--</label>-->
-
-                    <!--<input id="Artist" class="radio-group__option" type="radio" name="opt">-->
-                    <!--<label class="radio-group__label" for="Artist">-->
-                        <!--Artist-->
-                    <!--</label>-->
-
-                    <!--<input id="Album" class="radio-group__option" type="radio" name="opt">-->
-                    <!--<label class="radio-group__label" for="Album">-->
-                        <!--Album-->
-                    <!--</label>-->
-
-                    <!--<input id="Playlist" class="radio-group__option" type="radio" name="opt">-->
-                    <!--<label class="radio-group__label" for="Playlist">-->
-                        <!--Playlist-->
-                    <!--</label>-->
-
-                <!--</div>-->
-
-
 
                 <div id="results_div" class="search_results_container" style="display: none"></div>
 
@@ -68,11 +43,6 @@
 
             </div>
 
-            <div class="app__logout" id="spotify_helper_logout">
-                <svg class="app__logout-icon svg-icon" id="spotify_helper_logout_btn" viewBox="0 0 20 20">
-                    <path d="M6,3 a8,8 0 1,0 8,0 M10,0 10,12"/>
-                </svg>
-            </div>
         </div>
 
     </div>

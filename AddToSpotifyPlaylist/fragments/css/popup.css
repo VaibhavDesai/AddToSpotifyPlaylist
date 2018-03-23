@@ -1,38 +1,32 @@
 html{
-    display: inline-flex;
     width: 300px;
     max-height: 500px;
-    user-select: none;
     font-family: sans-serif;
+    padding: 0px;
 }
 
 body{
     position: relative;
     width: inherit;
     max-height: inherit;
-    user-select: none;
-    font-family: sans-serif;
-    margin: 8px;
+    margin: 0px;
 }
 h1{
     font-family: Verdana, Geneva, sans-serif;
 }
 
-ul{
-    -webkit-padding-start: 5%;
-}
-
 .mainPopup {
     width: 100%;
+    max-height: inherit;
     text-align: center;
 }
 
 ui{
-    display: -webkit-box;
+    display: block;
     line-height: 300%;
-    padding: 1%;
+    padding-left: 3%;
     width: inherit;
-    text-align: center;
+    text-align: left;
     border-left: 0px;
     border-right: 0px;
     border-top: 0px;
@@ -48,20 +42,16 @@ input[type=search], select {
     box-sizing: border-box;
 }
 
+.app {
+    display: none;
+    width: 100%;
+    max-height: inherit;
+    overflow: hidden;
+}
+
 .app__logout {
-    margin-right: 6%;
-    margin-bottom: 2%;
-    float: right;
-    width: 2.5rem;
-    height: 2.5rem;
-    background: #639752;
-    color: #fff;
+    width: 11%;
+    margin-left: 2%;
+    padding:inherit;
     border-radius: 50%;
-    cursor: pointer;
-    -webkit-transition: bottom 0.4s 0.1s, right 0.4s 0.1s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
-    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
-    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, transform 0.4s 0.4s, opacity 0.1s 0.7s, background-color 0.1s 0.7s;
-    transition: bottom 0.4s 0.1s, right 0.4s 0.1s, transform 0.4s 0.4s, opacity 0.1s 0.7s, background-color 0.1s 0.7s, -webkit-transform 0.4s 0.4s;
-    -webkit-transform: scale(0);
-    transform: scale(0);
 }

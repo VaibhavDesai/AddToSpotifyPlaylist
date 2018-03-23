@@ -17,9 +17,6 @@
             window.close();
             var url = this.authorization_url + "?client_id=" + this.client_id + "&redirect_uri=" + this.redirect_url + "&response_type="+this.response_type+"&scope="+encodeURIComponent(this.scopes);
 
-            // for(var i in this.scopes) {
-            //     url += this.scopes[i];
-            // }
             console.log(url);
             chrome.tabs.create({url: url, active: true});
         },

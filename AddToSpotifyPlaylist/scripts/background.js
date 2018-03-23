@@ -23,8 +23,10 @@ function parsePage(tab) {
     var title  = tab.title;
 
     if(title.indexOf(source_youTube) !== -1){
-
         title = title.replace(source_youTube, "");
+        title = title.replace(new RegExp('\\((.*?)\\)',"g"),"");
+        title = title.replace(new RegExp('\\[(.*?)\\]',"g"),"");
+
         chrome.browserAction.setIcon({path: {16: song_detect_icon_path}});
         localStorage.setItem("title_detected", title);
     }
@@ -34,4 +36,5 @@ function parsePage(tab) {
         chrome.browserAction.setIcon({path: {16: regular_icon_path}});
 
     }
+
 }
