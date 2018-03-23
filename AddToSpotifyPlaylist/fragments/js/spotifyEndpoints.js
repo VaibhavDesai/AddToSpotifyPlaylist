@@ -19,11 +19,18 @@ function searchTrack(query) {
         success: function(responseText) {
             console.log(responseText);
             track_0 = responseText['tracks']['items'][0];
-            artist = responseText['tracks']['items'][0]['artists'][0]['name'];
-            document.getElementById('results_div').innerHTML="<h3>"+track_0['name']+"-"+artist+"</h3>";
+            console.log(track_0);
+            if(track_0 == null){
+                console.log("asdfsfds");
+                document.getElementById('results_div').innerHTML="<h3>Track not found. Try with a different keyword.</h3>";
+            }
+            else{
+                artist = responseText['tracks']['items'][0]['artists'][0]['name'];
+                document.getElementById('results_div').innerHTML="<h3>Track:"+track_0['name']+"-"+artist+"</h3>";
+                localStorage.setItem("track_uri", track_0['uri']);
+                updateUIWithPlaylists();
+            }
             $(results_div).show();
-            localStorage.setItem("track_uri", track_0['uri']);
-            updateUIWithPlaylists();
         },
 
         error: function (response) {
