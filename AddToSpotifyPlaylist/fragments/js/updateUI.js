@@ -3,8 +3,11 @@ function updateUIWithPlaylists() {
     playlists = JSON.parse(localStorage.getItem('playlists'))
     $('#playlist_holder').empty();
     for (i = 0; i < playlists.length; i++) {
+
         var playlist_id = playlists[i]['playlist_id']
-        $('<ui><button class="playlistBtn" id='+playlist_id+'>'+ playlists[i]['playlist_name']+'</button></ui>').appendTo('#playlist_holder')
+        var add_to_btn = '<i class="material-icons playlistBtn" id='+playlist_id+'>playlist_add</i>'+ '<span style="vertical-align: super; padding: 5px;">'+ playlists[i]['playlist_name']+'</span>';
+
+        $('<ui>'+add_to_btn+'</ui>').appendTo('#playlist_holder')
             .find('.playlistBtn')
             .data('id', playlists[i]['playlist_id'])
             .click(function(e) {
@@ -16,5 +19,6 @@ function updateUIWithPlaylists() {
 }
 
 function updatePlaylistButton(playlist_id) {
-    document.getElementById(playlist_id).style.background='#41ff0f';
+
+    document.getElementById(playlist_id).innerText = "playlist_add_check";
 }

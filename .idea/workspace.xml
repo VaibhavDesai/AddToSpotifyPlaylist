@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fc7fca-909b-45e2-be37-0479ffeeb50a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/searchType.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/login.css" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/login.css" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/results.css" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/results.css" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/search-form.css" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/search-form.css" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/searchFilter.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/popup.js" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/popup.js" />
       <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/popup.html" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/popup.html" />
-      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/Package/version0.1/AddToSpotifyPlaylist.zip" afterPath="$PROJECT_DIR$/Package/version0.1/AddToSpotifyPlaylist.zip" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js" />
+      <change beforePath="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/background.js" afterPath="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/background.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,97 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spotifyEndpoints.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/spotifyEndpoints.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!block;n#getUserDetails#0" expanded="false" />
-                <element signature="n#!!block;n#getPlaylists#0" expanded="false" />
-                <element signature="n#!!block;n#addToPlaylist#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="popup.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+            <state relative-caret-position="214">
+              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css">
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateUI.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/updateUI.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/popup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oauth2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="102" lean-forward="false" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apiTokens.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/apiTokens.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="125">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -128,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -144,6 +73,14 @@
       <find>ul</find>
       <find>spotify_search_form</find>
       <find>addToPlaylist</find>
+      <find>playlistBtn</find>
+      <find>.app ac</find>
+      <find>.se</find>
+      <find>.app_</find>
+      <find>app__logout</find>
+      <find>margin-right</find>
+      <find>rem</find>
+      <find>app</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,26 +107,33 @@
         <option value="$PROJECT_DIR$/fragments/js/popup.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/fragments/js/spotifyEndpoints.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/main.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/background.html" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/settings/js/settings.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauthsimple.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauth.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/onload.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/chrome_ex_oauth.html" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/background.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/injection.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.html" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/script.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/apiTokens.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/spotifyEndpoints.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/updateUI.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/popup.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/searchType.js" />
-        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/updateUI.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/spotifyEndpoints.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/injection.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/keys.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/resource.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/searchFilter.css" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/content.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/main.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/popup.js" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/results.css" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/search-form.css" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/background.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js" />
+        <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/login.css" />
         <option value="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/popup.html" />
       </list>
     </option>
@@ -200,10 +144,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1389" />
+    <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectView">
@@ -257,6 +200,19 @@
               <item name="AddToSpotifyPlaylist" type="b2602c69:ProjectViewProjectNode" />
               <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
               <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AddToSpotifyPlaylist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
+              <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+              <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AddToSpotifyPlaylist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
+              <item name="AddToSpotifyPlaylist" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,8 +225,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,6 +240,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AddToSpotifyPlaylist/icons/AddToSpotifyPlaylist" />
+      <recent name="$PROJECT_DIR$/AddToSpotifyPlaylist" />
+      <recent name="$PROJECT_DIR$/AddToSpotifyPlaylist/scripts" />
       <recent name="$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
@@ -322,12 +281,16 @@
       <workItem from="1519664615565" duration="8583000" />
       <workItem from="1519764781642" duration="336000" />
       <workItem from="1520023894453" duration="9883000" />
-      <workItem from="1520310835423" duration="4401000" />
+      <workItem from="1520310835423" duration="4447000" />
+      <workItem from="1520975809069" duration="9470000" />
+      <workItem from="1521099524891" duration="12518000" />
+      <workItem from="1521154186974" duration="10655000" />
+      <workItem from="1521777233547" duration="11279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50572000" />
+    <option name="totallyTimeSpent" value="94540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,25 +302,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="22" width="1389" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15277778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18957011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822478" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -400,35 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fragments/js/popup.js" />
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fragments/js/test.html" />
-    <entry file="file://$PROJECT_DIR$/fragments/js/Utils.js" />
-    <entry file="file://$PROJECT_DIR$/icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist48x48.png" />
-    <entry file="file://$PROJECT_DIR$/icons/AddToSpotifyPlaylist/ddToSpotifyPlaylist512x512.png" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist29x29.png" />
-    <entry file="file://$PROJECT_DIR$/icons/16.png" />
-    <entry file="file://$PROJECT_DIR$/icons/AddToSpotifyPlaylist/AddToSpotifyPlaylist96x96.png" />
     <entry file="file://$PROJECT_DIR$/background.html" />
     <entry file="file://$PROJECT_DIR$/fragments/js/apiTokens.js" />
     <entry file="file://$PROJECT_DIR$/fragments/js/updateUI.js" />
@@ -463,61 +397,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/HashSearch.js">
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauthsimple.js" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/onload.js" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauth.html" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauth.js" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/spotifyEndpoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="103" lean-forward="true" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+          <folding>
+            <element signature="n#!!block;n#getUserDetails#0" expanded="false" />
+            <element signature="n#!!block;n#getPlaylists#0" expanded="false" />
+            <element signature="n#!!block;n#addToPlaylist#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/background.html" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauthsimple.js" />
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/onload.js" />
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauth.html" />
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/oauth/chrome_ex_oauth.js" />
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/keys.js">
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="54" />
+        <state relative-caret-position="660">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/resource.js" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/ionic.min.css" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/test.html" />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/searchType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/apiTokens.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/urls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="98" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/background.html">
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/keys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="15">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/loading.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/injection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -525,6 +498,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/buttonAnimation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/HashSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/searchFilter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/scripts/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -537,88 +555,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/apiTokens.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/lib/chrome-ex-auth/oauth2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="102" lean-forward="false" selection-start-line="9" selection-start-column="102" selection-end-line="9" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/updateUI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <marker date="1520985532514" expanded="true" signature="349:371" ph="..." />
+            <marker date="1520985532514" expanded="true" signature="349:385" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/spotifyEndpoints.js">
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/search-form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="70" column="24" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#getUserDetails#0" expanded="false" />
-            <element signature="n#!!block;n#getPlaylists#0" expanded="false" />
-            <element signature="n#!!block;n#addToPlaylist#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/results.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="223">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/js/searchType.js">
+    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="125">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddToSpotifyPlaylist/fragments/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+        <state relative-caret-position="214">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,63 @@
+.spotify_helper_search {
+    width: inherit;
+    height: inherit;
+}
+
+.spotify_helper_search .search-container {
+    padding: 4px 10px;
+    font-size: 16px;
+    float: right;
+}
+
+.spotify_helper_search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+
+.spotify_helper_search .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+.search-form {
+    padding: 3%;
+    height: 10%;
+}
+
+.search-button{
+    width: 11%;
+    margin-left: 2%;
+    padding:inherit;
+    border-radius: 50%;
+
+}
+
+.search-bar{
+    width: 70%;
+    padding: inherit;
+}
+
+input[type=search], select {
+    padding: 10px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search_results_container{
+    height: 5%;
+}

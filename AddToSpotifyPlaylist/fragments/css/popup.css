@@ -1,33 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-body {
-    background: #2A2A34;
+html{
+    width: 300px;
+    max-height: 500px;
+    font-family: sans-serif;
+    padding: 0px;
 }
 
-.radio-group {
-    width: inherit;
-    table-layout: auto;
-    border-spacing: 0;
-    padding: 10px;
-    border-collapse: separate;
-}
-
-.radio-group__label {
-    border-radius:20px;
-    font-size: 10px;
-    padding: 5px;
-    margin: 2%;
-    vertical-align: middle;
-    text-align: center;
+body{
     position: relative;
-    border: 1px solid #4F5167;
-    color: #4F5167;
-    cursor: pointer;
+    width: inherit;
+    max-height: inherit;
+    margin: 0px;
+}
+h1{
+    font-family: Verdana, Geneva, sans-serif;
 }
 
-.radio-group__option:checked + label {
-    color: #389E29;
+.mainPopup {
+    width: 100%;
+    max-height: inherit;
+    text-align: center;
 }
 
-.radio-group__option {
+ui{
+    display: block;
+    line-height: 300%;
+    padding-left: 3%;
+    width: inherit;
+    text-align: left;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+input[type=search], select {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.app {
     display: none;
+    width: 100%;
+    max-height: inherit;
+    overflow: hidden;
+}
+
+.app__logout {
+    width: 11%;
+    margin-left: 2%;
+    padding:inherit;
+    border-radius: 50%;
 }

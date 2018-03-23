@@ -37,7 +37,6 @@ function init() {
     }
 
     $(document).on("click", ".search-button", function(evt) {
-        console.log("here in ");
         evt.preventDefault();
         searchTrack(document.getElementById('query').value);
     });
@@ -47,11 +46,14 @@ function init() {
 function loadupScreen() {
 
     getAccessToken();
+    title_detected = localStorage.getItem("title_detected");
     $app.show();
-    $app.css("top");
-    $app.addClass("active");
+    console.log(title_detected);
+    if (title_detected != undefined){
+        document.getElementById("query").value = title_detected;
+    }
+
     $login.hide();
-    $login.addClass("inactive");
 
 }
 

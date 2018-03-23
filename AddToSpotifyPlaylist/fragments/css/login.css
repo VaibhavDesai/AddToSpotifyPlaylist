@@ -1,0 +1,38 @@
+.login__form {
+    width: 100%;
+    text-align: center;
+}
+
+.login__submit {
+    display: inline-block;
+}
+
+
+.login {
+    position: relative;
+    height: 100%;
+}
+
+.login__submit {
+    position: relative;
+    width: 80%;
+    height: 3rem;
+    margin: 1rem 0 2.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    background: #639752;
+    font-size: 1.0rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+    transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+}
+
+.login__signup {
+    font-size: 1.2rem;
+    color: #ABA8AE;
+}
+.login__signup a {
+    color: #fff;
+    cursor: pointer;
+}
